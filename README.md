@@ -1,5 +1,4 @@
-# Deep_Learning
-Deep_Learning models 
+# Deep_Learning models
 CNN   
 LSTM  
 RNN
