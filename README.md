@@ -1,5 +1,5 @@
 # Deep_Learning models
-#CNN   
+# CNN   
       The core idea behind CNNs is that they are designed to recognize patterns and features in images by applying a series of filters or "convolutions" to the input image. These filters are small matrices of numbers that are slid over the image one pixel at a time, and at each position, they perform a dot product operation between the filter values and the corresponding pixel values in the image. This process creates a new matrix, called a feature map, that highlights certain patterns and features in the input image.
 
 CNNs typically consist of multiple layers, including convolutional layers, pooling layers, and fully connected layers. In convolutional layers, the filters are applied to the input image to extract features, and in pooling layers, the feature maps are downsampled to reduce the size of the data and extract more robust features. Finally, fully connected layers use the extracted features to classify the input image into one of several categories.
@@ -8,7 +8,7 @@ During training, the network is presented with a large number of images with kno
 
 Overall, CNNs are a powerful tool for image recognition and classification, and they have been used in a wide range of applications, from self-driving cars to medical image analysis.
 
-#LSTM  
+# LSTM  
       Long Short-Term Memory (LSTM) is a type of Recurrent Neural Network (RNN) that is designed to handle the vanishing gradient problem and better capture long-term dependencies in sequential data. The LSTM architecture is composed of a series of memory cells that are connected to each other through a set of gating mechanisms.
 
 Each memory cell is responsible for maintaining a hidden state vector, which represents the cell's memory of the past inputs it has seen. The LSTM architecture includes three gating mechanisms that control the flow of information into and out of the memory cells: the input gate, the forget gate, and the output gate.
@@ -23,7 +23,7 @@ The memory cell state is updated by combining the input gate and the current inp
 
 LSTMs have been shown to be effective in a wide range of applications, including language modeling, speech recognition, and image captioning. They are particularly useful in tasks that require the model to capture long-term dependencies in the data, as they are able to maintain a memory of past inputs and selectively retain or discard components of that memory based on the current input.
 
-#RNN
+# RNN
       Recurrent Neural Networks (RNNs) are a type of neural network architecture that is designed to handle sequential data. They are particularly useful for processing data that has a temporal or sequential relationship, such as time series data, text, and speech.
 
 The key idea behind RNNs is that they are able to maintain an internal state or "memory" that allows them to process inputs one at a time, while also taking into account the context of previous inputs. This makes them well-suited for tasks like language modeling, where the probability of a given word depends on the preceding words in the sentence.
